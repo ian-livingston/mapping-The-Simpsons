@@ -11,6 +11,19 @@ I collected data mostly through scraping (see "Tools Used" below), cleaned and c
 # Features and Target Variables
 - My **target variable** was IMDb rating
 - My final **features** were:
+  - Number of ratings
+  - Season score (season mean rating measured by the number of standard deviations above or below the mean season mean it is)
+  - Director mean (director mean rating measured by the number of standard deviations above or below the mean director mean it is)
+  - Number of writers
+  - Homer % (the percentage of total episode words spoken by Homer)
+  - Lisa % (the percentage of total episode words spoken by Lisa)
+  - Marge % (the percentage of total episode words spoken by Marge)
+  - Mr. Burns multiplied (the percentage of non-Simpson words words spoken by Mr. Burns * the "Season score" feature)
+  - Flanders multiplied (the percentage of non-Simpson words words spoken by Ned Flanders * the "Season score" feature)
+  - Number of guest stars
+  - Most words: Simpson? (whether or not one of the four Simpsons has the most spoken words)
+  - M/F disparity (the size of the difference between ratings left by male IMDb users and female IMDb users)
+  - M/F ratio: Number of ratings (the ratio of the number of ratings left by male IMDb users to that of female IMDb users)
 
 # Data Used
 I used data scraped and sourced from:
